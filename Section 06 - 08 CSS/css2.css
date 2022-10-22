@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    font-weight: 100;
+    text-decoration: blue underline;
+    letter-spacing: 8px;
+    font-family: cursive, arial;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
+
+.hehe {
+    color: springgreen;
+}
+
+p::first-letter {
+    font-size: 40px;
+}
+
+::selection {
+    background-color: saddlebrown;
+}
+
+#paragraf2 {
+    color: red;
+}
+
+/*  
+#paragraf2 a {
+    background-color: blueviolet;
+}
+*/
+
+a:hover {
+    color: red;
+}
+
+h1:nth-child() h1+p {
+    font-weight: bold;
+}
+
+/*  
+* {
+    color: red
+}
+*/

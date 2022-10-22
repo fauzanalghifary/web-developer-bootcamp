@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Form Demo</h1>
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter Password:</label>
+            <input id="password" type="password" placeholder="enter a password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter Color:</label>
+            <input id="color" type="color" name="color">
+        </p>
+        <p>
+            <label for="number">Enter number:</label>
+            <input id="number" type="number" placeholder="enter a number" name="num">
+        </p>
+        <button>Submit</button>
+    </form>
+    <h2>HIJACKING</h2>
+    <p>
+    <form action="https://www.youtube.com/results">
+        <label for="search">Search YT</label>
+        <input type="text" name="search_query" id="search">
+        <button>Search</button>
+
+    </form>
+    </p>
+    <H2>CHECKBOXES </H2>
+
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree</label>
+        <p>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="xs">
+        </p>
+        <p>
+            <label for="s">s</label>
+            <input type="radio" name="size" id="s" value="s">
+        </p>
+        <p>
+            <label for="xl">XL</label>
+            <input type="radio" name="size" id="xl" value="xl">
+        </p>
+        </p>
+
+        <p>
+            <label for="meal">Please select an entree</label>
+            <select name="meal" id="meal">
+                <option value="">--Pilih--</option>
+                <option value="hayam">Hayam</option>
+                <option value="Lauk">Lauk</option>
+                <option value="Bayam">Bayam</option>
+
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese:</label>
+            <input type="range" name="cheseb" id="cheese" min="0" max="100" value="50">
+        </p>
+        <p>
+            <label for="request">Any Special Request</label>
+            <br>
+            <textarea name="request" id="request" cols="30" rows="10" placeholder="Type here"></textarea>
+        </p>
+
+        <button>Submit</button>
+    </form>
+    <h2>Exercise</h2>
+    <form action=".ada">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="username">
+        <br>
+        <label for="password">Password</label>
+        <input type="text" name="password" id="password" placeholder="password">
+        <br>
+        <button>Register</button>
+    </form>
+
+    <h2>Validation Demo</h2>
+    <form action="/ad">
+        <label for="first">First Name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" minlength="5">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" minlength="5" required>
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+
+    </form>
+</body>
+
+</html>

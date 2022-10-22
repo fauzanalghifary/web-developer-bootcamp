@@ -1,0 +1,32 @@
+div {
+    width: 600px;
+    height: 100px;
+}
+
+h1 {
+    background-color: blueviolet;
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#one {
+    background-color: sandybrown;
+    border-width: 5px;
+    border-color: teal;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#two {
+    background-color: seagreen;
+    border: 6px solid black;
+    box-sizing: border-box;
+    border-radius: 3%;
+    margin: 30px 0;
+}
+
+#three {
+    background-color: ;
+}

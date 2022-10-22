@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    /* Define main axis */
+    flex-direction: row;
+    /* if wrap reverse, changes direction of the cross axis */
+    flex-wrap: wrap;
+    /*Distribute item in main axis */
+    justify-content: center;
+    /* Distribute item in cross axis */
+    align-items: flex-start;
+    /* Distribute item in cross axis (???) (must wrap and multine) */
+    align-content: center;
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    flex-basis: 200px;
+}
+
+div:nth-of-type(5) {
+    flex-grow: 1;
+}
